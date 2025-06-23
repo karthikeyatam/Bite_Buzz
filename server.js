@@ -1,3 +1,4 @@
+const PORT = process.env.PORT || 4000;
 const _0x948281 = _0x4d80;
 function _0x4d80(_0x47d2b2, _0xbfc548) {
   const _0x10b67c = _0x10b6();
@@ -91,7 +92,7 @@ function _0x10b6() {
   return _0x10b6();
 }
 const server = app[_0x948281(0x17c)](
-  process[_0x948281(0x170)][_0x948281(0x174)],
+  PORT,
   () => {
     const _0x9eb2d = _0x948281;
     console[_0x9eb2d(0x16e)](
