@@ -5,7 +5,7 @@
   "main": "server.js",
 "scripts": {
     "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
+    "dev": "nodemon backend/server.js",
     "prod": "SET NODE_ENV=PRODUCTION& nodemon backend/server",
     "seeder": "node utils/seeder.js"
   },
