@@ -91,6 +91,9 @@ function _0x10b6() {
   };
   return _0x10b6();
 }
+app["get"]("/", (_0x123abc, _0x456def) => {
+  _0x456def["send"]("API is running");
+});
 const server = app[_0x948281(0x17c)](
   PORT,
   () => {
